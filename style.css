@@ -3,49 +3,24 @@
   margin: 0 auto;
 }
 
-.directory {
-  margin-top: 40px;
-}
-
-.directory ul {
+ul {
   list-style: none;
   padding-left: 0;
 }
 
-.directory ul li {
+li {
   margin-bottom: 10px;
 }
 
-.modal {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: 1;
-}
-
-.modal-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 50%;
-  height: 50%;
-  margin: auto;
-  background-color: #fff;
-  padding: 20px;
+.directory-link {
+  display: block;
+  padding: 10px;
+  border: 1px solid #ccc;
   border-radius: 5px;
+  text-decoration: none;
+  color: #000;
 }
 
-.modal-content textarea {
-  width: 100%;
-  height: 200px;
-  margin-bottom: 10px;
-}
-
-.modal-content button {
-  margin-top: 10px;
+.directory-link:hover {
+  background-color: #eee;
 }
